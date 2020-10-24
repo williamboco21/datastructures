@@ -65,12 +65,66 @@ print()
 ###################################
 
 # Searching in a String
+# If false, it returns -1
 
 pos = fruit.find('na')
 print(pos)
 anotha_pos = fruit.find('x')
 print(anotha_pos)
+print()
 
 ###################################
 
 # Making Everything UPPER CASE
+
+uppercase = hello.upper()
+print(uppercase)
+print()
+
+###################################
+
+# Search and Replace
+
+new_str = hello.replace('Yam', 'Hekhek')
+print(new_str)
+new_str = hello.replace('a', 'XO')
+print(new_str)
+print()
+
+###################################
+
+# Stripping Whitespace
+
+greet = "   Yam   "
+
+print("Let's welcome " + greet.lstrip() + " in our team")
+print("Let's welcome " + greet.rstrip() + " in our team")
+print("Let's welcome " + greet.strip() + " in our team")
+print()
+
+###################################
+
+# Prefixes
+
+line = "Have a good day!"
+print(line.startswith('H'))
+print(line.startswith('Have'))
+print(line.startswith('y'))
+print()
+
+###################################
+
+# Parsing and Extracting
+
+data = 'From stephen.marquard@uct.ac.za Sat Jan  5 09:14:16 2008'
+pos = data.find('@')
+print(pos)
+ano_pos = data.find(' ', pos)
+print(ano_pos)
+host = data[pos+1:ano_pos]
+print(host)
+
+
+
+
+
