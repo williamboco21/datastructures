@@ -60,7 +60,7 @@ print()
 
 file = open('files/data.txt')
 for data in file:
-    if not '@gmail.com' in data:
+    if not 'uct.ac.za' in data:
         continue
     print(data.rstrip())
 file.close()
