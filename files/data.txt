@@ -1,0 +1,8 @@
+From: williammboco@gmail.com Mon Oct  26 11:07:10 2020
+Return-Path: <postmaster@collab.sakaiproject.org>
+Date: 2020-10-26 11:10:00 -1867
+To: yamyamboco21@gmail.com
+From: williammboco@gmail.com
+Subject: [sakai] svn commit: r39772 - content/branches/
+
+Details: http://source.sakaiproject.org/viewsvn/?view=rev&rev=39772
