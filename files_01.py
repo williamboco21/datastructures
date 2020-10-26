@@ -35,8 +35,9 @@ print()
 
 file = open('files/data.txt')
 for data in file:
-    if data.startswith("From:"):
-        print(data.rstrip())
+    if not data.startswith("From:"):
+        continue
+    print(data.rstrip())
 file.close()
 print()
 
